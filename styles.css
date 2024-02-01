@@ -1,0 +1,107 @@
+.body{
+    display: flex;
+    min-height: 100 vh;
+    font-family:'Mikar';
+    flex-direction: column;
+}
+/*common part for all pages*/
+.header {
+    background-color: #FFF8DC;
+    align-items: center;
+}
+
+.navbar{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7.5px 25px 7.5px 25px;
+    flex-wrap: wrap;
+}
+
+.navbar-link{
+    font-size: 45px;
+    display: block;
+    padding: 20px;
+    border-bottom: 2px solid #605F5F;
+}
+
+.navbar-link:hover{
+    background-color: rgba(226, 222, 221, 0.392);
+}
+
+.navbar-link:active{
+    background-color: rgb(226, 178, 178);
+}
+
+.navbar-link a{
+    text-decoration: none;
+    color: #605F5F;
+}
+.logo-header {
+    height: 130px;
+    padding: 7.5px 10px 7.5px 0;
+}
+
+.main {
+    background-color: #FFDEAD;
+    padding: 20px;
+    margin-top: -10px;
+    font-size: 25px;
+}
+
+.footer{
+    background-color: #800000;
+    color: white;
+    align-self: flex-end;
+    width: 100%;
+}
+
+/*part for main page*/
+.logo-main {
+    height: 200px;
+    margin-bottom: -40px;
+}
+
+.welcome {
+    text-align: center;
+    font-size: 75px;
+}
+
+.title {
+    display: inline-block;
+    color: #B22222;
+    font-size: 85px;
+    font-style: italic;
+}
+
+/*part for list page*/
+.list-back {
+    display: block;
+    background-color: #DEB887;
+    padding: 15px;
+    box-shadow: 1px 1px 5px;
+}
+
+.list_ul {
+    list-style-image: url('images/triangle.svg');
+}
+
+.book {
+    border-bottom: 2px solid #A0522D;
+    margin-right: 15px;
+}
+
+.book:hover {
+    background-color: #965638;
+}
+
+.book:active {
+    background-color: #bc5f34;
+}
+
+.book a {
+    color: black;
+    text-decoration: none;
+}
+  
