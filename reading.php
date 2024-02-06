@@ -41,6 +41,11 @@
                     $currentPage = isset($_GET['page']) ? intval($_GET['page']) : 1;
                     $pageContent = $pages[$currentPage - 1];
                     echo '<h1>' . $book . '</h1>';
+					echo '<form action="search.php" method="GET">';
+						echo '<input type="hidden" name="book" value='. urlencode($book) . '>'; 
+						echo '<input type="text" name="word" placeholder="Введите слово" required>';
+						echo '<button type="submit">Поиск</button>';
+					echo '</form>';
                     echo $pageContent;
                     // It's time for buttons
                     if ($totalPages > 1) {
