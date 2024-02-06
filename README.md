@@ -10,5 +10,5 @@ Page with a list of all files from folder
 Page with reader
 ![изображение](https://github.com/dogee4803/php_reader_txt/assets/117568779/0de9c7b9-b06e-4730-b5a6-a48de875bdb5)
 
-Searching page
+Searching page with word 'Лидию'
 ![изображение](https://github.com/dogee4803/php_reader_txt/assets/117568779/d9109bf7-0e65-46b3-a189-df7a78f09fa0)
